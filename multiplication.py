@@ -1,11 +1,11 @@
 class calculator:
-        whileChecker = True
+	whileChecker = True
 	def multiplication(x,y):
 		result = x*y
 		print(result)
 
 
-	while whileChecker == true:
+	while whileChecker == True:
 		choice = int(input("1 - addition, 2 - subtraction, 3 - multiplication, 4 - division, 5 - exit "))
 		if choice == 1:
 			x = int(input("first value: "))
